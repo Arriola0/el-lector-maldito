@@ -5,61 +5,51 @@
 }
 html{
     font-size: 62.5%;
+    font-family:'Times New Roman', Times, serif;
 }
 body{
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
+    background: rgba(246,5,5,1);
 }
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 5px;
-    overflow-x: hidden;
+    justify-content: left;
+    margin-top: 15px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
 }
 .tresBarras{
     margin-left: 5px;
     width: 15%;
     cursor: pointer;
     max-width: 65px;
+    background: rgba(246,5,5,1);
+    border-radius: 50%;
+    z-index: 50;
+    box-shadow: 5px 5px 5px #0008;
 }
-.padreOpciones{
-    display: flex;
-    transform: translateX(-800px);
-}
-.padreOpciones div{
-    font-size: 1.8rem;
-    margin: 0px 5px 0px 5px;
-    border-right: 1px solid #1af6cc;
-    padding-right: 3px;
-    color: #fff;
-    box-shadow: 5px 2px 2px #0003;
-}
-.opcionesA:hover, .opcionesB:hover{
-    font-size: 1.9rem;
-    cursor: pointer;
-    color: #66e9e9;
-}
-.opcionesAA:hover, .opcionesBB:hover{
-    font-size: 1.9rem;
-    cursor: pointer;
-    color: #66e9e9;
-}
+
 .padre-logo{
     width: 100%;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .logo{
     width: 300px;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 10px 5px 5px #0003;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #0008;
+}
+.nombre-Logo{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 100px;
 }
 
-.opcionAutores, .opcionTemas{
+.opcionTemas{
     width: 90%;
     background-color: #F581D2 ;
     margin-top: 10px;
@@ -77,7 +67,7 @@ body{
     right: 0;
     margin: auto;
 }
-.opcionAutores p, .opcionTemas p{
+.opcionTemas p{
     width: auto;
     font-size: 1.8rem;
     padding: 15px;
@@ -85,25 +75,16 @@ body{
     box-shadow: 10px 5px 5px #0003;
     border-radius: 5px;
 }
-.opcionAutores a{
-    text-decoration: none;
-    color: #fff;
-}
-.opcionAutores p:hover, .opcionTemas p:hover{
-    font-size: 2rem;
+.opcionTemas p:hover{
     cursor: pointer;
-    color: #66e9e9;
+    color: #000;
+}
+.opcionTemas a{
+    text-decoration: none;
 }
 
-.cerrar-opcionesAutores, .cerrar-opcionesTemas{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
-.cerrar-opcionesAutores:hover, .cerrar-opcionesTemas:hover{
-    font-size: 2rem;
-    cursor: pointer;
-}
+
+
 
 
 .mensajeUno{
@@ -111,6 +92,7 @@ body{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
     margin-top: 25px;
     color: #fff;
     box-shadow: 10px 5px 10px #0003;
@@ -119,108 +101,99 @@ body{
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
 }
-.padre-videos{
-    width: 100%;
-    text-align: center;
-}
-.videos{
-    margin: auto;
-    width: auto;
-    max-width: 300px;
-    height: auto;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 10px 5px 10px #0003;
-}
-.titulo-videos{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 10px;
-    color: #fff;
-    padding: 15px;
-    background: rgb(217,91,19);
-    background: linear-gradient(79deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
-    box-shadow: 15px 5px 5px #0003;
-}
-.btnLetraVideos, .btnLetraVideosB{
-    font-size: 2rem;
-    width: 90%;
-    padding: 5px;
+
+
+
+
+.sectionVideos{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px));
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+}
+
+.hijos-sectionVideos{
+    border-bottom: 1px solid #0009;
+    height: 370px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px #0005;
+    box-shadow: 5px 5px 5px #0009;
+    background: rgb(217,91,19);
+    background: linear-gradient(0deg, rgba(217,91,19,1) 5%, rgba(246,5,5,1) 95%);
+}
+.padre-title-hijos-sectionVideos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 3px;
+}
+.title-hijos-sectionVideos{
+    font-size: 1.5rem;
     color: #fff;
+}
+.img-title-sectionVideos{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 5px 5px 5px #000;
+}
+.padrebtn-hijos-sectionVideos{
+    text-align: center;
+}
+.btn-hijos-sectionVideos{
+    margin-top: 3px;
+    border: none;
+    background: rgba(246,5,5,1);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0009;
     cursor: pointer;
 }
-.btnLetraVideos:hover, .btnLetraVideosB:hover{
-    font-size: 2.2rem;
-    color: rgb(206, 245, 115);
+.btn-hijos-sectionVideos:hover{
+    font-size: 1.2rem;
+    border: 1px solid #fff;
 }
-.letra-videos{
-    font-size: 1.8rem;
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #fff;
-    box-shadow: 10px 5px 10px #0004;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
-    display: none;
+.padre-miniatura{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.miniatura{
+    width: 150px;
+    height: 250px;
+    box-shadow: 5px 5px 5px #0005;
+    border-radius: 3px;
+}
+.padre-fecha{
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes deplazarOpcionesA{
-    0%{
-        transform: translateX(-800px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+.fecha{
+    color: #fff;
+    font-size: 1rem;
 }
 
-
-@keyframes deplazarOpcionesB{
-    0%{
-        transform: translateX(0px);
-    }
-    100%{
-        transform: translateX(-800px);
-    }
-}
 
 
 @keyframes desplazarOpcionesAutoresA{
     0%{
-        transform: translatey(-600px);
+        transform: translateY(-600px);
     }
     100%{
-        transform: translateX(0px);
+        transform: translateY(80%);
     }
 }
 @keyframes desplazarOpcionesAutoresB{
     0%{
-        transform: translatey(0px);
+        transform: translateY(80%);
     }
     100%{
         transform: translateY(-600px);
