@@ -51,8 +51,10 @@ body{
 
 .opcionTemas{
     width: 90%;
+    height: 200px;
+    overflow-y: scroll;
     background-color: #F581D2 ;
-    margin-top: 10px;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 3px;
@@ -67,6 +69,7 @@ body{
     right: 0;
     margin: auto;
 }
+
 .opcionTemas p{
     width: auto;
     font-size: 1.8rem;
@@ -189,6 +192,7 @@ body{
     }
     100%{
         transform: translateY(80%);
+       
     }
 }
 @keyframes desplazarOpcionesAutoresB{

@@ -51,6 +51,8 @@ body{
 
 .opcionTemas{
     width: 90%;
+    height: 200px;
+    overflow-y: scroll;
     background-color: #F581D2 ;
     margin-top: 10px;
     display: flex;
