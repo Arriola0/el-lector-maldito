@@ -48,7 +48,6 @@ body{
     margin-top: 15px;
     margin-bottom: 100px;
 }
-
 .opcionTemas{
     width: 50%;
     padding-top: 10px;
@@ -90,28 +89,9 @@ body{
 
 
 
-.mensajeUno{
-    font-size: 1.8rem;
+
+.post{
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    margin-top: 25px;
-    color: #fff;
-    box-shadow: 10px 5px 10px #0003;
-    padding: 10px;
-    border-radius: 5px;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
-}
-
-
-
-
-.sectionVideos{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(200px));
@@ -119,9 +99,64 @@ body{
     margin-right: auto;
 }
 
-.hijos-sectionVideos{
-    border-bottom: 1px solid #0009;
-    height: 390px;
+/*poemas y cuentos cortos*/
+.hijo-post{
+    border-bottom: 1px solid black;
+    height: 320px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0009;
+    background: rgb(217,91,19);
+    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
+}
+
+
+.titulo-hijo-post{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.padre-img-post{
+    text-align: center;
+}
+.img-post{
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 5px #0009;
+}
+
+
+.padre-btnLeer{
+    text-align: center;
+    margin-top: 10px;
+}
+.btnLeer{
+    border: none;
+    background: rgba(246,5,5,1);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0009;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.btnLeer:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
+/*Cartas*/
+.hijo-cartas{
+    border-bottom: 1px solid black;
+    height: 320px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -130,60 +165,88 @@ body{
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 5%, rgba(246,5,5,1) 95%);
 }
-.padre-title-hijos-sectionVideos{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 3px;
-}
-.title-hijos-sectionVideos{
-    font-size: 1.5rem;
+.nombre-cartas{
     color: #fff;
-}
-.img-title-sectionVideos{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-    box-shadow: 5px 5px 5px #000;
-}
-.padrebtn-hijos-sectionVideos{
+    font-size: 2rem;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
-.btn-hijos-sectionVideos{
-    margin-top: 3px;
-    border: none;
-    background: rgba(246,5,5,1);
+
+.fotoLectorMaldito, .fotoCarlen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-fotoLectorMladito, .logo-fotoCarlen{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.nombre-fotoLectorMaldito, .nombre-fotoCarlen{
     color: #fff;
     font-size: 1.5rem;
-    padding: 5px;
+}
+.padre-btnLeer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/*Dialogos*/
+.hijo-dialogos{
+    border-bottom: 1px solid black;
+    height: 320px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #0009;
-    cursor: pointer;
+    background: rgb(217,91,19);
+    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
 }
-.btn-hijos-sectionVideos:hover{
-    font-size: 1.2rem;
-    border: 1px solid #fff;
-}
-.padre-miniatura{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-.miniatura{
-    width: 150px;
-    height: 250px;
-    box-shadow: 5px 5px 5px #0005;
-    border-radius: 3px;
-}
-.padre-fecha, .NumeroDeVideo{
-    text-align: center;
-}
-.fecha, .NumeroDeVideo{
-    text-align: center;
+
+
+.titulo-hijo-dialogos{
+    font-size: 2rem;
     color: #fff;
-    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+.presentacion-hijos-dialogos{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-presentacion-hijos-dialogos{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nombre-presentacion-hijos-dialogos{
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+
+
+.tipo{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+
 
 
 
@@ -193,7 +256,6 @@ body{
     }
     100%{
         transform: translateY(80%);
-       
     }
 }
 @keyframes desplazarOpcionesAutoresB{
@@ -204,8 +266,3 @@ body{
         transform: translateY(-600px);
     }
 }
-
-
-
-
-

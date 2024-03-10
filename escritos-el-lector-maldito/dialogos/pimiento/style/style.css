@@ -30,23 +30,13 @@ body{
     box-shadow: 5px 5px 5px #0008;
 }
 
-.padre-logo{
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.logo{
-    width: 60%;
-    max-width: 300px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 20px #0008;
-}
-.nombre-Logo{
+
+.nombre{
     color: #fff;
     font-size: 2.5rem;
     margin-top: 15px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .opcionTemas{
@@ -88,102 +78,71 @@ body{
 
 
 
-
-
-.mensajeUno{
-    font-size: 1.8rem;
+.dialogo{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    
+}
+.pimiento, .cebollita{
+    width: 100%;
     margin-top: 25px;
-    color: #fff;
-    box-shadow: 10px 5px 10px #0003;
-    padding: 10px;
-    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0009;
+    padding-bottom: 15px;
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
 }
 
-
-
-
-.sectionVideos{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 95%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(200px));
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hijos-sectionVideos{
-    border-bottom: 1px solid #0009;
-    height: 390px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0009;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 5%, rgba(246,5,5,1) 95%);
-}
-.padre-title-hijos-sectionVideos{
+.perfil-pimiento, .perfil-cebollita{
     display: flex;
-    justify-content: left;
     align-items: center;
-    margin-top: 3px;
 }
-.title-hijos-sectionVideos{
-    font-size: 1.5rem;
-    color: #fff;
-}
-.img-title-sectionVideos{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.img-pimiento, .img-cebollita{
+    width: 60px;
+    height: 60px;
     margin-right: 15px;
-    box-shadow: 5px 5px 5px #000;
+    border-radius: 50%;
 }
-.padrebtn-hijos-sectionVideos{
-    text-align: center;
-}
-.btn-hijos-sectionVideos{
-    margin-top: 3px;
-    border: none;
-    background: rgba(246,5,5,1);
+.name-pimiento, .name-cebollita{
+    font-size: 2rem;
     color: #fff;
-    font-size: 1.5rem;
+}
+
+.discurso-pimiento, .discursoi-cebollita{
+    width: 90%;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1.8rem;
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding: 10px;   
+    
+}
+.simbolos{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.simbolos span{
+    margin-left: 20px;
+    border: 1px solid #fff;
     padding: 5px;
-    border-radius: 5px;
+    font-size: 2.5rem;
+    border-radius: 3px;
     box-shadow: 5px 5px 5px #0009;
     cursor: pointer;
 }
-.btn-hijos-sectionVideos:hover{
-    font-size: 1.2rem;
-    border: 1px solid #fff;
+.simbolos span:hover{
+    font-size: 2rem;
 }
-.padre-miniatura{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-.miniatura{
-    width: 150px;
-    height: 250px;
-    box-shadow: 5px 5px 5px #0005;
-    border-radius: 3px;
-}
-.padre-fecha, .NumeroDeVideo{
-    text-align: center;
-}
-.fecha, .NumeroDeVideo{
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-}
+
+
+
+
+
+
 
 
 
@@ -193,7 +152,6 @@ body{
     }
     100%{
         transform: translateY(80%);
-       
     }
 }
 @keyframes desplazarOpcionesAutoresB{
@@ -204,6 +162,11 @@ body{
         transform: translateY(-600px);
     }
 }
+
+
+
+
+
 
 
 
