@@ -257,6 +257,17 @@ body{
 
 
 
+.padre-fecha{
+    text-align: center;
+    margin-top: 5px;
+}
+.fecha{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
 @keyframes desplazarOpcionesAutoresA{
     0%{
         transform: translateY(-600px);

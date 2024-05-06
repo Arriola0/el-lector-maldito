@@ -24,13 +24,3 @@ tresBarras.addEventListener("click", ()=>{
 });
 
 
-btnLetraVideoNueve.addEventListener("click", ()=>{
-    if(btnLetraVideoNueve.classList.contains("btnLetraVideos")){
-        letraVideoNueve.style.display = "block";
-        btnLetraVideoNueve.classList.replace("btnLetraVideos", "btnLetraVideosB");
-    }
-    else if(btnLetraVideoNueve.classList.contains("btnLetraVideosB")){
-        letraVideoNueve.style.display = "none";
-        btnLetraVideoNueve.classList.replace("btnLetraVideosB", "btnLetraVideos");
-    }
-});

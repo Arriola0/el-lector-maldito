@@ -3,11 +3,6 @@ const tresBarras = document.getElementById("tresBarras");
 const opcionTemas = document.getElementById("opcionTemas");
 const cerrarOpcionesTemas = document.getElementById("cerrar-opcionesTemas");
 
-
-const btnLetraVideoTres = document.getElementById("btnLetraVideoTres");
-const letraVideoTres = document.getElementById("letra-videoTres");
-
-
 tresBarras.addEventListener("click", ()=>{
 
     if(tresBarras.classList.contains("tresBarrasA")){
@@ -21,18 +16,6 @@ tresBarras.addEventListener("click", ()=>{
         tresBarras.classList.replace("tresBarrasB", "tresBarrasA");
     }
     
-    });
-
-
-    btnLetraVideoTres.addEventListener("click", ()=>{
-        if(btnLetraVideoTres.classList.contains("btnLetraVideos")){
-            letraVideoTres.style.display = "block";
-            btnLetraVideoTres.classList.replace("btnLetraVideos", "btnLetraVideosB");
-        }
-        else if(btnLetraVideoTres.classList.contains("btnLetraVideosB")){
-            letraVideoTres.style.display = "none";
-            btnLetraVideoTres.classList.replace("btnLetraVideosB", "btnLetraVideos");
-        }
     });
 
 

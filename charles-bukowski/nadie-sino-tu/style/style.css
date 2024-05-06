@@ -122,20 +122,7 @@ body{
     color: #fff;
     padding: 15px;
 }
-.btnLetraVideos, .btnLetraVideosB{
-    font-size: 1.8rem;
-    padding: 5px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0009;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    background: rgba(246,5,5,1);;
-}
-.btnLetraVideos:hover, .btnLetraVideosB:hover{
-    color: rgb(206, 245, 115);
-}
+
 .letra-videos{
     font-size: 1.8rem;
     width: 98%;
@@ -152,8 +139,9 @@ body{
     border-radius: 5px;
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
-    display: none;
-    text-align: center;
+    text-align:justify;
+    font-style: italic;
+    max-width: 500px;
 }
 
 .padre-infoVideos{

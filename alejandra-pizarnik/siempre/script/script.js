@@ -4,12 +4,6 @@ const opcionTemas = document.getElementById("opcionTemas");
 const cerrarOpcionesTemas = document.getElementById("cerrar-opcionesTemas");
 
 
-
-const btnLetraVideoDoce = document.getElementById("btnLetraVideoDoce");
-const letraVideoDoce = document.getElementById("letra-videoDoce");
-
-
-
 tresBarras.addEventListener("click", ()=>{
 
     if(tresBarras.classList.contains("tresBarrasA")){
@@ -24,17 +18,4 @@ tresBarras.addEventListener("click", ()=>{
     }
     
     });
-    
-
-
-
-    btnLetraVideoDoce.addEventListener("click", ()=>{
-        if(btnLetraVideoDoce.classList.contains("btnLetraVideos")){
-            letraVideoDoce.style.display = "block";
-            btnLetraVideoDoce.classList.replace("btnLetraVideos", "btnLetraVideosB");
-        }
-        else if(btnLetraVideoDoce.classList.contains("btnLetraVideosB")){
-            letraVideoDoce.style.display = "none";
-            btnLetraVideoDoce.classList.replace("btnLetraVideosB", "btnLetraVideos");
-        }
-    });
+  

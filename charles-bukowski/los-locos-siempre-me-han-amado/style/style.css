@@ -152,8 +152,9 @@ body{
     border-radius: 5px;
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
-    display: none;
-    text-align: center;
+    text-align: justify;
+    max-width: 500px;
+    font-style: italic;
 }
 
 .padre-infoVideos{
