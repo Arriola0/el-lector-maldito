@@ -191,9 +191,9 @@ body{
 
 
 .btnVerA, .btnVerB{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #fff;
-    width: fit-content;
+    width:max-content;
     padding: 8px;
     box-shadow: 5px 5px 8px #000;
     border-radius: 5px;
@@ -201,12 +201,14 @@ body{
     margin-right: auto;
     margin-bottom: 50px;
     cursor: pointer;
+    text-align: center;
+    border: 1px solid #fff;
 }
 .btnVerA{
     display: none;
 }
 .btnVerA:hover, .btnVerB:hover{
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 
 
