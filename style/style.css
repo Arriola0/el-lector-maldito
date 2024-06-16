@@ -34,7 +34,7 @@ body{
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .logo{
     width: 60%;
@@ -46,7 +46,9 @@ body{
     color: #fff;
     font-size: 2.5rem;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .opcionTemas{
@@ -108,9 +110,9 @@ body{
 
 
 
-.sectionVideos{
+.sectionVideos, .sectionVideosB, .sectionVideosC{
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     width: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -118,7 +120,9 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+.sectionVideos, .sectionVideosB{
+    display: none;
+}
 .hijos-sectionVideos{
     border-bottom: 1px solid #0009;
     height: 390px;
@@ -183,6 +187,26 @@ body{
     text-align: center;
     color: #fff;
     font-size: 1rem;
+}
+
+
+.btnVerA, .btnVerB{
+    font-size: 1.8rem;
+    color: #fff;
+    width: fit-content;
+    padding: 8px;
+    box-shadow: 5px 5px 8px #000;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.btnVerA{
+    display: none;
+}
+.btnVerA:hover, .btnVerB:hover{
+    border: 1px solid #fff;
 }
 
 

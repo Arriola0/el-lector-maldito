@@ -4,7 +4,12 @@ const tresBarras = document.getElementById("tresBarras");
 const opcionTemas = document.getElementById("opcionTemas");
 const cerrarOpcionesTemas = document.getElementById("cerrar-opcionesTemas");
 
+const btnVerA = document.getElementById("btnVerA");
+const sectionVideos = document.getElementById("sectionVideos");
 
+
+const btnVerB = document.getElementById("btnVerB");
+const sectionVideosB = document.getElementById("sectionVideosB");
 
 
 tresBarras.addEventListener("click", ()=>{
@@ -25,6 +30,15 @@ else if(tresBarras.classList.contains("tresBarrasB")){
 
 
 
+btnVerA.addEventListener("click", ()=>{
+    sectionVideos.style.display = "grid";
+    btnVerA.style.display = "none";
+})
 
 
+btnVerB.addEventListener("click", ()=>{
+    sectionVideosB.style.display = "grid";
+    btnVerA.style.display = "block";
+    btnVerB.style.display = "none";
+})
 

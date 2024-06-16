@@ -7,7 +7,7 @@
 }
 
 
-.sectionVideos{
+.sectionVideos, .sectionVideosB, .sectionVideosC{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
