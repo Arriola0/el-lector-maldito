@@ -70,16 +70,16 @@ body{
     font-size: 1.8rem;
     padding: 15px;
     color: #fff;
-    box-shadow: 10px 5px 5px #0003;
+    box-shadow: 10px 5px 5px #0009;
     border-radius: 5px;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
+    background: #000;
+    color:rgba(246,5,5,1);
     margin-right: 10px;
     margin-top: 5px;
 }
 .opcionTemas p:hover{
     cursor: pointer;
-    color: #000;
+    color: #fff;
 }
 .opcionTemas a{
     text-decoration: none;
