@@ -37,10 +37,9 @@ body{
     margin-bottom: 30px;
 }
 .logo{
-    width: 60%;
-    max-width: 300px;
+    width: 70%;
+    max-width: 400px;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px #0008;
 }
 .nombre-Logo{
     color: #fff;
