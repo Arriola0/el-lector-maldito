@@ -93,108 +93,31 @@ body{
 .mensajeUno{
     font-size: 1.8rem;
     width: 90%;
-    height: 200px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    margin-top: 25px;
     color: #fff;
-    box-shadow: 10px 15px 10px #0009;
+    box-shadow: 5px 5px 15px #000;
     padding: 10px;
     border-radius: 5px;
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
     overflow-y: scroll;
     font-style: italic;
+    margin-bottom: 100px;
 }
 .apartado-mensajeUno{
     border-top: 1px solid #fff;
 }
-
-
-
-
-.sectionVideos, .sectionVideosB, .sectionVideosC{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 95%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(200px));
-    margin-left: auto;
-    margin-right: auto;
-}
-.sectionVideos, .sectionVideosB{
-    display: none;
-}
-.hijos-sectionVideos{
-    border-bottom: 1px solid #0009;
-    height: 390px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0009;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 5%, rgba(246,5,5,1) 95%);
-}
-.padre-title-hijos-sectionVideos{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 3px;
-}
-.title-hijos-sectionVideos{
-    font-size: 1.5rem;
-    color: #fff;
-}
-.img-title-sectionVideos{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-    box-shadow: 5px 5px 5px #000;
-}
-.padrebtn-hijos-sectionVideos{
-    text-align: center;
-}
-.btn-hijos-sectionVideos{
-    margin-top: 3px;
-    border: none;
-    background: rgba(246,5,5,1);
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0009;
-    cursor: pointer;
-}
-.btn-hijos-sectionVideos:hover{
-    font-size: 1.2rem;
-    border: 1px solid #fff;
-}
-.padre-miniatura{
-    text-align: center;
+.mensajeUno p{
     margin-top: 10px;
-    margin-bottom: 5px;
-}
-.miniatura{
-    width: 150px;
-    height: 250px;
-    box-shadow: 5px 5px 5px #0005;
-    border-radius: 3px;
-}
-.padre-fecha, .NumeroDeVideo{
-    text-align: center;
-}
-.fecha, .NumeroDeVideo{
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
 }
 
 
-.btnVerA, .btnVerB{
+
+
+.btnUno, .btnDos{
     font-size: 1.5rem;
     color: #fff;
     width:max-content;
@@ -208,12 +131,44 @@ body{
     text-align: center;
     border: 1px solid #fff;
 }
-.btnVerA{
+.btnDos{
     display: none;
 }
-.btnVerA:hover, .btnVerB:hover{
-    border: 1px solid #000;
+.btnUno:hover, .btnDos:hover{
+    background: #fff5;
 }
+
+
+
+
+
+.padre-narraciones-SectionTres, .padre-narraciones-SectionDos, .padre-narraciones-SectionUno{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.padre-narraciones-SectionDos{
+    display: none;
+}
+.padre-narraciones-SectionUno{
+    display: none;
+}
+
+.img-narraciones{
+    width: 100%;
+    max-width: 280px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.img-narraciones:hover{
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
 
 
 

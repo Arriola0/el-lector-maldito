@@ -4,12 +4,11 @@ const tresBarras = document.getElementById("tresBarras");
 const opcionTemas = document.getElementById("opcionTemas");
 const cerrarOpcionesTemas = document.getElementById("cerrar-opcionesTemas");
 
-const btnVerA = document.getElementById("btnVerA");
-const sectionVideos = document.getElementById("sectionVideos");
+const btnUno = document.getElementById("btnUno");
+const btnDos = document.getElementById("btnDos");
 
-
-const btnVerB = document.getElementById("btnVerB");
-const sectionVideosB = document.getElementById("sectionVideosB");
+const sectionUno = document.getElementById("sectionUno");
+const sectionDos = document.getElementById("sectionDos");
 
 
 tresBarras.addEventListener("click", ()=>{
@@ -28,17 +27,15 @@ else if(tresBarras.classList.contains("tresBarrasB")){
 });
 
 
-
-
-btnVerA.addEventListener("click", ()=>{
-    sectionVideos.style.display = "grid";
-    btnVerA.style.display = "none";
+btnUno.addEventListener("click", ()=>{
+    sectionDos.style.display = "grid";
+    btnUno.style.display = "none";
+    btnDos.style.display = "block";
 })
 
 
-btnVerB.addEventListener("click", ()=>{
-    sectionVideosB.style.display = "grid";
-    btnVerA.style.display = "block";
-    btnVerB.style.display = "none";
+btnDos.addEventListener("click", ()=>{
+    sectionUno.style.display = "grid";
+    btnDos.style.display ="none";
 })
 
