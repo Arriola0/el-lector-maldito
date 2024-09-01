@@ -92,10 +92,9 @@ body{
 
 
 .padre-videos{
-    width: 95%;
+    width: 100%;
     text-align: center;
-    margin-top: -70px;
-    margin-bottom: 50px;
+    margin-top: -80px;
     padding-bottom: 15px;
     background: rgb(217,91,19);
     background: linear-gradient(0deg, rgba(217,91,19,1) 5%, rgba(246,5,5,1) 85%);
@@ -103,6 +102,7 @@ body{
     margin-right: auto;
     box-shadow: 0px 0px 10px #000;
     border-radius: 5px;
+    padding-top: 25px;
 }
 .videos{
     margin: auto;
@@ -125,20 +125,17 @@ body{
 
 .letra-videos{
     font-size: 1.8rem;
-    width: 98%;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     color: #fff;
-    box-shadow: 10px 5px 10px #0004;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
-    background: rgb(217,91,19);
-    background: linear-gradient(0deg, rgba(217,91,19,1) 31%, rgba(246,5,5,1) 85%);
     text-align: justify;
     max-width: 500px;
     font-style: italic;
@@ -146,11 +143,12 @@ body{
 
 .padre-infoVideos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgb(217,91,19);
+    border-bottom: 1px solid #fff;
 }
 .logo-Videos{
     display: block;
@@ -171,16 +169,13 @@ body{
     margin-left: 10px;
     color: #fff;
     font-size: 1.2rem;
-    border-bottom: 1px solid rgb(217,91,19);
+    border-bottom: 1px solid #fff;
 }
-.nombre-Video{
+
+.subtituloLetras{
     color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(217,91,19);
+    margin-top: 20px;
 }
-
-
 
 
 

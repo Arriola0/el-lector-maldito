@@ -86,7 +86,23 @@ body{
 
 
 
-
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btns p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.btns a{
+    text-decoration: none;
+}
 
 
 .post{
