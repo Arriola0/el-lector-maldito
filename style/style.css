@@ -117,7 +117,7 @@ body{
 
 
 
-.btnUno, .btnDos{
+.btnUno, .btnDos, .btnTres{
     font-size: 1.5rem;
     color: #fff;
     width:max-content;
@@ -131,7 +131,7 @@ body{
     text-align: center;
     border: 1px solid #fff;
 }
-.btnDos{
+.btnDos, .btnUno{
     display: none;
 }
 .btnUno:hover, .btnDos:hover{
@@ -142,18 +142,21 @@ body{
 
 
 
-.padre-narraciones-SectionTres, .padre-narraciones-SectionDos, .padre-narraciones-SectionUno{
+.padre-narraciones-SectionTres, 
+.padre-narraciones-SectionDos, 
+.padre-narraciones-SectionUno,
+.padre-narraciones-SectionCuatro{
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: center;
     margin-bottom: 15px;
 }
-.padre-narraciones-SectionDos{
+.padre-narraciones-SectionUno, 
+.padre-narraciones-SectionDos,
+.padre-narraciones-SectionTres{
     display: none;
 }
-.padre-narraciones-SectionUno{
-    display: none;
-}
+
 
 .img-narraciones{
     width: 100%;
